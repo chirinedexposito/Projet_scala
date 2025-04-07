@@ -3,15 +3,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>Ayamokht</groupId>
-    <artifactId>Scala-project</artifactId>
-    <version>1.5</version>
+    <groupId>chirinedexposito</groupId>
+    <artifactId>projet-scala</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
 
-
-
-    <name>Scala-project</name>
-    <description>Scala Maven template for MoSEF</description>
-    <url>https://github.com/Ayamokht/Scala-project</url>
+    <name>Projet Scala</name>
+    <description>Projet Scala Maven pour MoSEF</description>
+    <url>https://github.com/chirinedexposito/Projet_scala</url>
 
     <properties>
         <encoding>UTF-8</encoding>
@@ -62,7 +61,6 @@
 
     <build>
         <sourceDirectory>src/main/scala</sourceDirectory>
-        <testSourceDirectory>src/test/scala</testSourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -92,7 +90,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>Main</mainClass>
+                            <mainClass>fr.mosef.scala.template.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
@@ -116,8 +114,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/Ayamokht/Scala-project</url>
+            <url>https://maven.pkg.github.com/chirinedexposito/Projet_scala</url>
         </repository>
     </distributionManagement>
-
 </project>
